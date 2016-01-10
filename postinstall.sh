@@ -26,7 +26,7 @@ sudo apt-get update
 
 #       Install applications
 
-sudo apt-get install -y vlc transmission ubuntu-restricted-extras inkscape gimp conky git google-chrome-stable paper-gtk-theme paper-icon-theme ambiance-flat-colors radiance-flat-colors lib32z1 lib32ncurses5 lib32stdc++6
+sudo apt-get install -y vlc transmission inkscape gimp conky git google-chrome-stable paper-gtk-theme paper-icon-theme ambiance-flat-colors radiance-flat-colors lib32z1 lib32ncurses5 lib32stdc++6
 
 #       Cleaning
 
