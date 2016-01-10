@@ -9,16 +9,18 @@ wget -O- "https://googledrive.com/host/0B1Nw7439j8LSdHhnVnpIRXUwRFU" | sudo tar 
 #       Updating
 
 sudo apt-get update
-sudo apt-get upgrade
+sudo apt-get -y upgrade
+sudo apt-get -y dist-upgrade
 
 #       Add repositories
 
 wget -q -O - https://dl-ssl.google.com/linux/linux_signing_key.pub | sudo apt-key add -
 
-sudo add-apt-repository "deb http://dl.google.com/linux/chrome/deb/ stable main"
+sudo add-apt-repository -y "deb http://dl.google.com/linux/chrome/deb/ stable main"
 
-sudo add-apt-repository ppa:ravefinity-project/ppa
-sudo add-apt-repository ppa:snwh/pulp
+sudo add-apt-repository -y ppa:ravefinity-project/ppa
+sudo apt-add-repository -y ppa:ricotz/docky
+sudo add-apt-repository -y ppa:snwh/pulp
 
 sudo apt-get update
 
