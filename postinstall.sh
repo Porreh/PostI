@@ -1,16 +1,16 @@
 #!/bin/bash
 # -*- Mode: sh; coding: utf-8 -*-
 
-#       Install fonts
-
-wget -O - "https://googledrive.com/host/0B1Nw7439j8LSdU9IeHVxX3lDNlk" | sudo tar xvz -C /usr/share/fonts/truetype
-wget -O - "https://googledrive.com/host/0B1Nw7439j8LSdHhnVnpIRXUwRFU" | sudo tar xvz -C /usr/share/fonts/truetype
-
 #       Updating
 
 sudo apt-get update
 sudo apt-get -y upgrade
 sudo apt-get -y dist-upgrade
+
+#       Install fonts
+
+wget -O - "https://googledrive.com/host/0B1Nw7439j8LSdU9IeHVxX3lDNlk" | sudo tar xvz -C /usr/share/fonts/truetype
+wget -O - "https://googledrive.com/host/0B1Nw7439j8LSdHhnVnpIRXUwRFU" | sudo tar xvz -C /usr/share/fonts/truetype
 
 #       Add repositories
 
